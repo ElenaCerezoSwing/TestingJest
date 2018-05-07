@@ -1,10 +1,11 @@
 {
-  "name": "elena",
+  "name": "intro-testing",
   "version": "1.0.0",
-  "description": "first attempt",
+  "description": "intro-testing",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest",
+    "start": "jest --watch npm jest"
   },
   "author": "Elena Cerezo",
   "license": "ISC",
